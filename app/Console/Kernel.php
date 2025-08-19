@@ -26,7 +26,6 @@ class Kernel extends ConsoleKernel
     }
     
     protected $commands = [
-        \App\Console\Commands\EmailProcessingCommand::class,
-        \App\Console\Commands\emailChecker::class,
+
     ];
 }
